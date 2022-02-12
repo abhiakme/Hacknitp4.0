@@ -194,8 +194,8 @@ font-family: 'Merriweather Sans', sans-serif;
 }
 
 .contact-me{
-  width: 100vw;
-  height: 100vh;
+ width: 100vw;
+   height: 50vh;
   background-color: #C3DBD9;
    padding: 100px 0 100px;
   text-align: center;
@@ -237,13 +237,13 @@ font-family: 'Merriweather Sans', sans-serif;
    margin-top: 3%;
 
  }
-
+#i4{
+	 padding: 10px 20px 10px 20px;
+   margin-top: 3%;
+ }
+ 
 #testimonials{
  text-align: center;
  /* background-color:#ef8172; */
 }
  
-#contact{
-  
-  display: flex;
-}
