@@ -10,6 +10,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #222;
   padding-bottom: 50px;
+ 
 }
 
 .container {
@@ -63,7 +64,7 @@ body {
 
 .nav a.current,
 .nav a:hover {
-  color: #c0392b;
+  color: #16a516;
   font-weight: bold;
 }
 
@@ -147,15 +148,29 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
+/* 
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
-}
+} */
 
 .button-download {
   margin: 1% 1% 3% 0;
 
-  /*  // margin property can be used to set a margin on all four sides of an element.
-  Margins create extra space around an element, unlike padding, which creates extra space within an element.  */
+
+}
+.about{
+  width: 100%;
+ 
+  margin-top: 5em;
+  padding: 2em;
+  background-color: rgb(185, 170, 202);
+  
+}
+.about p{
+  font-size: 30px;
+  /* background-image: url("S.jpg"); */
+}
+.content{
+  width: 100%;
 
 }
