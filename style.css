@@ -13,12 +13,13 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  width: 100vw;
   margin: 0 auto;
 }
 
 .nav {
   position: fixed;
+  width: 100vw;
   background-color: #222;
   top: 0;
   left: 0;
@@ -69,7 +70,7 @@ body {
 
 .hero {
   height: 100vh;
-  color: #fffb00;
+  color: #83fae0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,6 +79,8 @@ body {
   margin-bottom: 20px;
   z-index: -2;
   background-image: url('6.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero::before {
@@ -158,26 +161,30 @@ body {
   margin: 1% 1% 3% 0;
 }
 .about {
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
 
-  margin-top: 5em;
   padding: 2em;
   background-color: rgb(185, 170, 202);
 }
 .about p {
   font-size: 30px;
   /* background-image: url("S.jpg"); */
-}
-.content {
-  padding: 20px;
-  width: 100%;
   
 }
+.content {
+  padding: 10%;
+  width: 100%;
+ }
 .labours{
    background-color: #C3DBD9;
+   height: 100vh;
  }
  .employers{
    background-color: #dbc3c3;
  }
 
- 
+ #i1{
+   margin-top: 10%;
+
+ }
