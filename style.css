@@ -183,59 +183,61 @@ body {
  .employers{
    background-color: #dbc3c3;
  }
+.bottom-container{
+   background-color: #11999E;
+   padding: 22px 0 05px;
+   text-align: center;
+font-family: 'Merriweather Sans', sans-serif;
+ }
+ .footer-link {
+  color: grey;
+}
+
+.contact-me{
+   padding: 22px 0 05px;
+  text-align: center;
+ font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+.btn {
+  margin: 60px auto 40px auto;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999E);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999E);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999E);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999E);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999E);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
 
  #i1{
    margin-top: 3%;
 
  }
 
- .bottom-container{
-  background-color: #11999E;
-  padding: 22px 0 05px;
-  text-align: center;
-font-family: 'Merriweather Sans', sans-serif;
-}
-.footer-link {
- color: grey;
-}
-
-.contact-me{
-  padding: 22px 0 05px;
- text-align: center;
-font-family: 'Merriweather Sans', sans-serif;
-
-}
-
-.btn {
- margin: 60px auto 40px auto;
- background: #11cdd4;
- background-image: -webkit-linear-gradient(top, #11cdd4, #11999E);
- background-image: -moz-linear-gradient(top, #11cdd4, #11999E);
- background-image: -ms-linear-gradient(top, #11cdd4, #11999E);
- background-image: -o-linear-gradient(top, #11cdd4, #11999E);
- background-image: linear-gradient(to bottom, #11cdd4, #11999E);
- -webkit-border-radius: 28;
- -moz-border-radius: 28;
- border-radius: 28px;
- text-shadow: 1px 1px 3px #666666;
- font-family: 'Montserrat', sans-serif;
- color: white;
- font-size: 20px;
- padding: 10px 20px 10px 20px;
- text-decoration: none;
-}
-
-.btn:hover {
- background: #30e3cb;
- background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
- background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
- background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
- background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
- background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
- text-decoration: none;
-}
-
 #testimonials{
  text-align: center;
  /* background-color:#ef8172; */
 }
+ 
+
