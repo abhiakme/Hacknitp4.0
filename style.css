@@ -79,16 +79,15 @@ body {
   margin-bottom: 20px;
   z-index: -2;
   background-image: url('1.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  box-shadow:1px 2px 5px 5px white;
-  animation:slider 10s infinite linear;
+  background-size: 100% 100%;
+  animation:slider 15s infinite linear;
 }
 @keyframes slider{
-	0%{background-image: url('1.jpeg');}
+	0%{background-image: url('1.jpg');}
 	25%{background-image: url('2.jpg');}
 	50%{background-image: url('3.jpg');}
 	75%{background-image: url('4.jpg');}
+	100%{background-image: url('5.jpg');}
 }
 .hero::before {
   content: "";
@@ -256,4 +255,3 @@ width: 100vw;
  text-align: center;
  /* background-color:#ef8172; */
 }
-
