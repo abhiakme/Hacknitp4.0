@@ -81,8 +81,15 @@ body {
   background-image: url('1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  box-shadow:1px 2px 5px 5px white;
+  animation:slider 10s infinite linear;
 }
-
+@keyframes slider{
+	0%{background-image: url('2.jpg');}
+	25%{background-image: url('1.jpg');}
+	50%{background-image: url('4.jpg');}
+	75%{background-image: url('6.jpg');}
+}
 .hero::before {
   content: "";
   position: absolute;
