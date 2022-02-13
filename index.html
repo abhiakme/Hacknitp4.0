@@ -27,19 +27,22 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
-  <title>hacknitp4.0</title>
+  <title>LABOUR'S & EMPLOYMENT</title>
+  <link rel = "icon" href = 
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQISq_MuTUufNxpgTIfeeFZdsMMsaVDX2voSw&usqp=CAU" 
+        type = "image/x-icon">
 </head>
 
 <body>
   <nav class="nav">
     <div class="container">
-      <h1 class="logo"><a href="https://abhiakme.github.io/Hacknitp4.0/index.html#">LABOUR'S & EMPLOYMENT</a></h1>
+      <h1 class="logo"><a href="https://abhiakme.github.io/Hacknitp4.0/index.html#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQISq_MuTUufNxpgTIfeeFZdsMMsaVDX2voSw&usqp=CAU" width="50" height="50">LABOUR'S & EMPLOYMENT</a></h1>
       <ul>
         <li><a href="#" class="current">Home</a></li>
         <li><a href="#i3">About</a></li>
         <li>
           <div class="dropdown">
-            <a href="#">Services</a>
+            <a href="#im">Services</a>
             <div class="dropdown-content">
               <a href="#im">Labour section</a>
               <a href="#ie">Owner section</a>
@@ -58,8 +61,10 @@
 
   <div class="hero">
     <div class="container">
+	
       <div class="header">
-        <h1>Welcome To Our Platform</h1>
+	  
+		<h1>Welcome To Our Platform</h1>
         <h2>"NOW NO WORK IS FAR FORM US" आओ मिल कर काम करे|</h2>
       </div>
     </div>
@@ -102,7 +107,7 @@
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSf-q4zvOlW-1pHBh4og_vj23R-u74eTM-zmvQOMISWVIuZOeA/viewform?usp=sf_link"
             target="_blank">
             <button type="button" class="btn btn-dark btn-lg button-download">Job application form</button></a>
-          <br>
+          </br>
           <h2>** Find your suitable job here and contact to the employers.</h2>
           <a
             href="https://docs.google.com/spreadsheets/d/1JQaL2gT8DZQEVv9YLXhXxbn3IBj4HMkWmxs4gcSjJzM/edit?usp=sharing">
@@ -138,14 +143,16 @@
   </section>
   
 <div class="contact-me">
+<h1>Contact</h1>
 <h2>In case you have any Query,Contact us.</h2>
 </br>
   <div id="contact">
-    <form action="/action_page.php">
-   <label for="fname">Write your Query hear</label>
-   <input type="text" id="fname" name="fname"><br><br>
-   <input type="submit" value="Submit">
-   </form>
+  <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+  Write your Query here<input type="text" name="fname">
+  <input type="submit" value="Submit">
+</form>
+
+    
      </div>
     </div>
     <div class="bottom-container">
@@ -153,6 +160,7 @@
     <p><h3>TEAM BEGINNERS</h3></p>
     <p><h6>© All Right Reserved 2022</h6></p>
     </div>
+	
   <script src="script.js"></script>
 </body>
 </html>
