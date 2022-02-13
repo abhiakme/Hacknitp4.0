@@ -76,7 +76,7 @@ body {
   align-items: center;
   text-align: center;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom:0px;
   z-index: -2;
   background-image: url('1.jpg');
   background-size: 100% 100%;
@@ -192,6 +192,7 @@ body {
    background-color: #dbc3c3;
  }
 .bottom-container{
+	width: 100vw;
    background-color: #11999E;
    padding: 22px 0 05px;
    text-align: center;
