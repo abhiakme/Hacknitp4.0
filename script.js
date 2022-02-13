@@ -8,14 +8,4 @@ function fixNav() {
         nav.classList.remove('active')
     }
 }
-function validateForm() {
-  let x = document.forms["myForm"]["fname"].value;
-  if (x == "") {
-    alert("Query must be filled out");
-    return false;
-  }
-  else{
-	alert("Your Query is submitted successfully.");
-	window.open('https://abhiakme.github.io/Hacknitp4.0/index.html',"_self");
-  }
-}
+

@@ -76,13 +76,19 @@ body {
   align-items: center;
   text-align: center;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom:0px;
   z-index: -2;
-  background-image: url('6.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url('1.jpg');
+  background-size: 100% 100%;
+  animation:slider 15s infinite linear;
 }
-
+@keyframes slider{
+	0%{background-image: url('1.jpg');}
+	25%{background-image: url('2.jpg');}
+	50%{background-image: url('3.jpg');}
+	75%{background-image: url('4.jpg');}
+	100%{background-image: url('5.jpg');}
+}
 .hero::before {
   content: "";
   position: absolute;
@@ -162,7 +168,7 @@ body {
 }
 .about {
   width: 100vw;
-  height: 100vh;
+/*   height: 100vh; */
 
   padding: 2em;
   background-color: rgb(185, 170, 202);
@@ -179,13 +185,14 @@ body {
 .labours{
 	width: 100vw;
    background-color: #C3DBD9;
-   height: 100vh;
+/*    height: 100vh; */
  }
  .employers{
 	 width: 100vw;
    background-color: #dbc3c3;
  }
 .bottom-container{
+	width: 100vw;
    background-color: #11999E;
    padding: 22px 0 05px;
    text-align: center;
@@ -238,8 +245,37 @@ width: 100vw;
   text-decoration: bold;
   width: 270px;
 }
-
+.b1{
+  width: 230px;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999E);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999E);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999E);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999E);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999E);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 15px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 20px;
  
+  text-decoration: none;
+  transition: width 3s;
+  
+}
+ .b1:hover {
+  background: #30e3cb;
+  text-align: center;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: bold;
+  width: 270px;
+}
 #i4{
 	 padding: 10px 20px 10px 20px;
    margin-top: 3%;
@@ -249,4 +285,3 @@ width: 100vw;
  text-align: center;
  /* background-color:#ef8172; */
 }
-
