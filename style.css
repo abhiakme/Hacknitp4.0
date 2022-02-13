@@ -204,6 +204,7 @@ font-family: 'Merriweather Sans', sans-serif;
 }
 
 .btn {
+	width: 230px;
   margin: 60px auto 40px auto;
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999E);
@@ -213,30 +214,30 @@ font-family: 'Merriweather Sans', sans-serif;
   background-image: linear-gradient(to bottom, #11cdd4, #11999E);
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
-  border-radius: 28px;
+  border-radius: 15px;
   text-shadow: 1px 1px 3px #666666;
   font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  transition: width 3s;
+  
 }
 
 .btn:hover {
   background: #30e3cb;
+  text-align: center;
   background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
-  text-decoration: none;
+  text-decoration: bold;
+  width: 270px;
 }
 
-
- #i1{
-   margin-top: 3%;
-
- }
+ 
 #i4{
 	 padding: 10px 20px 10px 20px;
    margin-top: 3%;
@@ -246,4 +247,4 @@ font-family: 'Merriweather Sans', sans-serif;
  text-align: center;
  /* background-color:#ef8172; */
 }
- 
+
