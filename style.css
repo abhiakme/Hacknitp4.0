@@ -177,10 +177,12 @@ body {
   width: 100%;
  }
 .labours{
+	width: 100vw;
    background-color: #C3DBD9;
    height: 100vh;
  }
  .employers{
+	 width: 100vw;
    background-color: #dbc3c3;
  }
 .bottom-container{
@@ -194,7 +196,7 @@ font-family: 'Merriweather Sans', sans-serif;
 }
 
 .contact-me{
- width: 95vw;
+width: 100vw;
    height: 50vh;
   background-color: #C3DBD9;
    padding: 100px 0 100px;
