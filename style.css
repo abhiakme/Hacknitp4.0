@@ -247,7 +247,6 @@ width: 100vw;
 }
 .b1{
   width: 230px;
-  margin: 60px auto 40px auto;
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999E);
   background-image: -moz-linear-gradient(top, #11cdd4, #11999E);
