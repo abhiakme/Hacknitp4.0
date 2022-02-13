@@ -85,7 +85,7 @@ body {
   animation:slider 5s infinite linear;
 }
 @keyframes slider{
-	0%{background-image: url('2.jpg');}
+	0%{background-image: url('2.jpeg');}
 	25%{background-image: url('1.jpg');}
 	50%{background-image: url('4.jpg');}
 	75%{background-image: url('6.jpg');}
